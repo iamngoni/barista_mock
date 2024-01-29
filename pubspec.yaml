@@ -7,8 +7,8 @@ environment:
   sdk: '>=3.4.0-24.0.dev <4.0.0'
 
 dependencies:
-  cupertino_icons: ^1.0.6
   bloc: ^8.1.2
+  cupertino_icons: ^1.0.6
   equatable: ^2.0.5
   flutter:
     sdk: flutter
@@ -16,20 +16,20 @@ dependencies:
   get_it: ^7.6.4
   handy_extensions: ^0.1.6
   injectable: ^2.3.2
+  intl:
   relative_scale: ^2.0.0
 
 dev_dependencies:
   bloc_test: ^9.1.4
   build_runner: ^2.4.6
-  flutter_gen_runner:
   flutter_test:
     sdk: flutter
+  injectable_generator:
   mocktail: ^1.0.0
   very_good_analysis: ^5.1.0
 
 flutter:
   uses-material-design: true
-  generate: true
 
   assets:
     - assets/images/
